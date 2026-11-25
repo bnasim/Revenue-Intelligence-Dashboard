@@ -1,13 +1,17 @@
 # Revenue-Intelligence-Dashboard
 Revenue Intelligence Dashboard for NovaTech Solutions - AWS AI &amp; ML Scholars Program (Udacity)
-<h3>Project Overview & Business Objective</h3>h3>
+
+<h3>Project Overview & Business Objective</h3>
 
 NovaTech's data is siloed across three systems: 
 1. CRM (Salesforce-style) — tracks the sales pipeline: deals, stages, reps, win/loss outcomes, and deal values.
 2. Marketing analytics platform — tracks campaign performance: leads generated, channel attribution, spend, and response rates.
-3. Support ticketing system — tracks customer issues: priorities, resolution times, product areas, and customer sentiment. These systems do not talk to each other. Every Monday morning, the revenue team manually pulls reports from all three tools to answer basic cross-functional questions. This process wastes roughly an hour per week and still leaves gaps — nobody can easily answer questions that span systems, such as: 
- "Which marketing campaigns are actually driving closed deals?" •
- "Are our highest-value customers also the ones filing the most support tickets?" •
+3. Support ticketing system — tracks customer issues: priorities, resolution times, product areas, and customer sentiment. These systems do not talk to each other. Every Monday morning, the revenue team manually pulls reports from all three tools to answer basic cross-functional questions. This process wastes roughly an hour per week and still leaves gaps — nobody can easily answer questions that span systems, such as:
+   
+ "Which marketing campaigns are actually driving closed deals?" 
+ 
+ "Are our highest-value customers also the ones filing the most support tickets?" 
+ 
  "What's the relationship between campaign channel and eventual deal win rate?"
 
 To eliminate manual reporting and establish a single source of truth across the customer lifecycle, we designed and deployed the NovaTech Revenue Intelligence Dashboard and a dedicated Amazon QuickSight Q Topic (an artificial intelligence natural language querying layer that enables business users to ask plain-English questions of underlying datasets). Together, these tools unify marketing funnel performance, sales pipeline velocity, and customer health indicators into one interactive decision-support environment.
